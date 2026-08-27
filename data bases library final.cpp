@@ -12,7 +12,6 @@
 using namespace std;
 
 struct Book{
-    //david
     string bookname;
     string authorname[MAX_AUTHOR_NUM];
     int numofauthors;
@@ -32,7 +31,6 @@ struct Department{
 Department department[5];
 
 struct staff{
-   //jaisheesh
     string name;
     int age;
     char gender;
@@ -44,7 +42,6 @@ struct staff{
 };
 
 struct borrowers{
-    //Adithya
     string borrowername;
     int borrowerage;
     char borrowergender;
@@ -57,7 +54,6 @@ struct borrowers{
 }; vector<borrowers>total_borrowers;
 
 struct feedback{
-    // ravi
     string feedbackgiver;
     int feedbackdate,feedbackmonth,feedbackyear;
     int rating;
