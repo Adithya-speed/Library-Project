@@ -32,7 +32,7 @@ struct Department{
 Department department[5];
 
 struct staff{
-    //jaisheesh
+   //jaisheesh
     string name;
     int age;
     char gender;
@@ -44,7 +44,7 @@ struct staff{
 };
 
 struct borrowers{
-    //vidath and aditya
+    //Adithya
     string borrowername;
     int borrowerage;
     char borrowergender;
@@ -114,9 +114,9 @@ public:
         t[1][4] = {"Modeling effects of impulsive control strategies on the spread of mosquito borne disease: role of latent period", "Sisodiya OS, Misra OP, Dhar J", 2022, "Mathematics and Computing"};
 
         // Electrical and Electronics
-        t[2][0] = {"AERPSO — An adaptive exploration robotic PSO based cooperative algorithm for multiple target searching", "Garg V, Shukla A, Tiwari R", 2022, "Electrical and Electronics"};
+        t[2][0] = {"AERPSO â€” An adaptive exploration robotic PSO based cooperative algorithm for multiple target searching", "Garg V, Shukla A, Tiwari R", 2022, "Electrical and Electronics"};
         t[2][1] = {"Microstrip line fed dielectric resonator antenna optimization using machine learning algorithms", "Singh O, Bharamagoudra MR, Gupta H, Dwivedi AK, Ranjan P, Sharma A", 2022, "Electrical and Electronics"};
-        t[2][2] = {"A compact, high isolation building block for 8 × 8 multi-input multi-output antenna array suitable for 5G smartphone applications", "Gupta SK, Bage A, Ranjan", 2022, "Electrical and Electronics"};
+        t[2][2] = {"A compact, high isolation building block for 8 Ã— 8 multi-input multi-output antenna array suitable for 5G smartphone applications", "Gupta SK, Bage A, Ranjan", 2022, "Electrical and Electronics"};
         t[2][3] = {"Design and Implementation of Low Power, High-Speed Configurable Approximation 8-Bit Booth Multiplier", "Kumar S, Poonia M, Kumar R, Sharma G, Kumar S", 2022, "Electrical and Electronics"};
         t[2][4] = {"Hybrid feedback active noise control headset based on binaural signal utilization", "Patel V, Bhattacharjee SS, Cheer J, George NV", 2022, "Electrical and Electronics"};
 
@@ -130,7 +130,7 @@ public:
         // Business Management
         t[4][0] = {"Mapping the customer centric weather index insurance service design using quality function deployment", "Singh P, Agrawal G", 2022, "Business Management"};
         t[4][1] = {"Exploring enablers of modularity in healthcare service delivery", "Prakash G", 2022, "Business Management"};
-        t[4][2] = {"What Do We Know About Customer Churn Behaviour in the Telecommunication Industry? A Bibliometric Analysis of Research Trends, 1985–2019", "Bhattacharyya J, Dash MK", 2022, "Business Management"};
+        t[4][2] = {"What Do We Know About Customer Churn Behaviour in the Telecommunication Industry? A Bibliometric Analysis of Research Trends, 1985â€“2019", "Bhattacharyya J, Dash MK", 2022, "Business Management"};
         t[4][3] = {"Causal modelling of the enablers of CPFR for building resilience in manufacturing supply chains", "Hemant J, Rajesh R, Daultani Y", 2022, "Business Management"};
         t[4][4] = {"Investigating the barriers to growth in the Indian food processing sector", "Singh G, Daultani Y, Sahu R", 2022, "Business Management"};
 
@@ -538,7 +538,7 @@ public:
         // Add details for the remaining books
         department[3].book[5].bookname = "Blue Ocean Strategy: How to Create Uncontested Market Space and Make the Competition Irrelevant";
         department[3].book[5].authorname[0] = "W. Chan Kim";
-        department[3].book[5].authorname[1] = "Renée Mauborgne";
+        department[3].book[5].authorname[1] = "RenÃ©e Mauborgne";
         department[3].book[5].numofauthors = 2;
         department[3].book[5].ISBN = 1591396190;
         department[3].book[5].booktype = "Business & Money";
